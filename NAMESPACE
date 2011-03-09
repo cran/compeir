@@ -1,0 +1,11 @@
+import(grid, etm, lattice)
+export(data.reshape,
+       iprop,
+       irates,
+       irates.ratio,
+       CIFplot, cif)
+S3method(print, irates)
+S3method(summary, irates)
+S3method(plot, irates)
+S3method(print, iprop)
+S3method(print, irates.ratio)
